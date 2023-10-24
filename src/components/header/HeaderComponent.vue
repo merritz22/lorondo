@@ -45,7 +45,7 @@ import { ref } from "vue"
         <div class="flex items-center justify-between ">
           <a href="/" class="-m-1.5 p-1.5">
             <span class="sr-only">Lorondo Service</span>
-            <img class="h-8 w-auto"  :src="logo" alt="">
+            <img class="h-12 w-auto"  :src="logo" alt="">
           </a>
           <div class="">
             <a href="" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"></a>
