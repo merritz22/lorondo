@@ -15,7 +15,7 @@ import { ref } from "vue"
       <div class="flex lg:flex-1">
         <a href="/" class="-m-1.5 p-1.5">
           <span class="sr-only">Lorondo Service</span>
-          <img class="h-8 w-auto rounded-full hover:opacity-80 transition-all ease-in-out duration-500" :src="logo" alt="Lorondo">
+          <img class="h-12 w-auto rounded-full hover:opacity-80 transition-all ease-in-out duration-500" :src="logo" alt="Lorondo">
         </a>
       </div>
       <div class="flex lg:hidden">
@@ -33,7 +33,7 @@ import { ref } from "vue"
         <!-- <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Company</a> -->
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a href="" class="text-sm font-semibold leading-6 text-gray-900">😎</a>
+        <a href="" class="text-sm font-semibold leading-6 text-gray-900"></a>
         <!-- <span aria-hidden="true">&rarr;</span> -->
       </div>
     </nav>
@@ -48,7 +48,7 @@ import { ref } from "vue"
             <img class="h-8 w-auto"  :src="logo" alt="">
           </a>
           <div class="">
-            <a href="" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">😎</a>
+            <a href="" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"></a>
           </div>
           <button v-if="!show" @click="mainMenu" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
             <span class="sr-only">Close menu</span>
