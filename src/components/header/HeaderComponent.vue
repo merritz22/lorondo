@@ -82,6 +82,11 @@ import router from "@/router";
               <RouterLink class="text-sm border-b-2 border-b-indigo-500 font-bold leading-6 text-indigo-500 uppercase hover:text-indigo-900 hover:border-b-indigo-900 transition-all ease-in-out duration-700" to="/">{{ $t('headerNavLink.0') }}</RouterLink>
               <RouterLink class="text-sm border-b-2 border-b-indigo-500 font-bold leading-6 text-indigo-500 uppercase hover:text-indigo-900 hover:border-b-indigo-900 transition-all ease-in-out duration-700" to="services">{{ $t('headerNavLink.1') }}</RouterLink>
               <RouterLink class="text-sm border-b-2 border-b-indigo-500 font-bold leading-6 text-indigo-500 uppercase hover:text-indigo-900 hover:border-b-indigo-900 transition-all ease-in-out duration-700" to="contact">{{ $t('headerNavLink.2') }}</RouterLink>
+              <select @change="changedLocale" name="locale" id="locale" class="bg-transparent">
+                <option value="fr-FR" :selected="locale?.includes('fr-FR') ? true:false">{{ $t('locale.0') }}</option>
+                <option value="en-US" :selected="locale?.includes('en-US') ? true:false">{{ $t('locale.1') }}</option>
+                <option value="ro-RO" :selected="locale?.includes('ro-RO') ? true:false">{{ $t('locale.2') }}</option>
+              </select>
             </div>
           </div>
         </div>
