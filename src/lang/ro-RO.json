@@ -1,46 +1,46 @@
 {
     "headerNavLink":{
-        "0":"Accueil",
-        "1":"Services",
-        "2":"Contact"
+        "0":"Acasă",
+        "1":"Servicii",
+        "2":"Contactați"
     },
-    "HomeTitle":"pour vous",
-    "HomeDef":"Nous avons pour mission de construire des partenariatsfiables et durables basés sur la confiance mutuelle, en offrant une gamme diversifiée de services avec chaque entreprise. Offrir une expérience professionnelle inoubliable dans les projets de nos partenaires.Notre objectif principal est de contribuer à l'économie nationale, dans les ressources humaines. Dans ce contexte, nous organisons un emploi convenable pour les personnes qualifiées, semi-qualifiées et travailleurs non qualifiés à travers la migration dans différents pays du monde et les rendres autonomes en apportant leur bien-être économique.",
-    "ContactTitle":"A l'écoute pour toujours être proche de vous et vos besoins.",
-    "contactFormName":"Nom",
-    "contactFormSurname":"Prénom",
-    "contactFormEnterprise":"Entreprise",
+    "HomeTitle":"pentru tine",
+    "HomeDef":"Misiunea noastră este de a construi parteneriate de încredere și de durată, bazate pe încredere reciprocă, oferind o gamă variată de servicii pentru fiecare companie. Obiectivul nostru principal este de a contribui la economia națională prin intermediul resurselor umane. În acest context, organizăm locuri de muncă adecvate pentru lucrătorii calificați, semicalificați și necalificați prin migrație în diferite țări ale lumii și îi facem pe aceștia să devină autosuficienți, aducându-le bunăstarea economică.",
+    "ContactTitle":"Suntem întotdeauna gata să vă ascultăm, să fim aproape de dumneavoastră și de nevoile dumneavoastră.",
+    "contactFormName":"Nume",
+    "contactFormSurname":"Nume și prenume",
+    "contactFormEnterprise":"Compania",
     "contactFormMail":"Email",
-    "contactFormPhone":"Téléphone",
-    "contactFormLand":"Pays",
-    "contactFormMsg":"Message",
-    "contactFormTerms":"Accepter nos ",
-    "contactFormTermsLink":"politiques de confidentialités",
-    "contactFormSend":"Envoyer",
-    "servicesTitle":"Nous offrons a nos clients une gamme de services variée et de qualité superieure, conscient de la nécéssité de ce qu'est votre besoin, nous vous accompagnons fièrement dans son obtention.",
+    "contactFormPhone":"Telefon",
+    "contactFormLand":"Țara",
+    "contactFormMsg":"Mesaj",
+    "contactFormTerms":"Acceptarea noastră",
+    "contactFormTermsLink":"politici de confidențialitate",
+    "contactFormSend":"Trimiteți",
+    "servicesTitle":"Oferim clienților noștri o gamă largă de servicii de înaltă calitate. Știm de ce aveți nevoie și suntem mândri să vă ajutăm să le obțineți.",
     "servicesHeader":{
-        "0":"Etudes",
-        "1":"Art",
-        "2":"Technologies",
-        "3":"Tourisme",
-        "4":"Travail",
-        "5":"Voyages"
+        "0":"Studii",
+        "1":"Artă",
+        "2":"Tehnologii",
+        "3":"Turism",
+        "4":"Muncă",
+        "5":"Călătorie"
     },
     "servicesBody":{
-        "0":"Vous désirez continuer vos études à l'étranger? Dans des écoles offrants des diplômes reconnues à l'internationale? Nous vous accompagnons dans le choix de votre école, votre filière et votre intégration.",
-        "1":"Vous êtes un amoureux des oeuvres artistiques? vous aimez produire des oeuvres de toutes beautées? vous voulez vendre ou exposer vos réalisations? N'hésitez pas à nous contactez pour vos besoin artistiques.",
-        "2":"De nos jours, la technologie est devenue notre un réel omniscient, elle contribue à notre epanouissement. Rejoignez les plus grands abris technologiques de notre monde.",
-        "3":"Une destination touristique? Visitez des lieux naturels qui vont vous marquer, prenez des vacances méritées et aller vers des destinations inoubliables. Créer vous des souvenirs.",
-        "4":"De nombreux pays du monde sont en chantier et n'attendent que vous, des travailleurs expérimentés et désireux de faire vos preuves Le monde proffessionnel vous attends.",
-        "5":"Notre monde regorge de nombreuse ressources qui n'attendent que vous. Sport, Esport, Tourisme, ...Comme beaucoup d'autre aventurer vous et faite le tour du monde."
+        "0":"Doriți să vă continuați studiile în străinătate? La școli care oferă calificări recunoscute la nivel internațional? Vă putem ajuta să vă alegeți școala, cursul de studii și integrarea.",
+        "1":"Ești un iubitor de lucrări artistice? Îți place să produci opere de artă frumoase? Nu ezitați să ne contactați pentru nevoile dumneavoastră artistice.",
+        "2":"În zilele noastre, tehnologia a devenit realitatea noastră omniscientă, contribuind la împlinirea noastră personală. Alăturați-vă celor mai mari adăposturi tehnologice din lume.",
+        "3":"O destinație turistică? Vizitați locuri naturale care vă vor marca, luați o vacanță binemeritată și călătoriți în destinații de neuitat. Creați-vă propriile amintiri.",
+        "4":"Multe dintre țările lumii sunt în construcție și vă așteaptă pe voi, muncitori cu experiență dornici să vă dovediți valoarea. Lumea profesională vă așteaptă.",
+        "5":"Lumea noastră este plină de resurse care vă așteaptă. Sport, Esports, Turism, ... La fel ca mulți alții, aventurați-vă și călătoriți prin lume."
     },
-    "footerTitle":"A Propos de nous",
-    "footerAboutUs":"Activités de consultance dans le domaine des relations publiques et de la communication. Activités des agences de publicité et des services de représentations.",
-    "footerContact":"Contact",
-    "footercopyright":"Tout droits réservés.",
+    "footerTitle":"Despre noi",
+    "footerAboutUs":"Consultanță în domeniul relațiilor publice și al comunicării. Agenții de publicitate și servicii de reprezentare.",
+    "footerContact":"Contactați",
+    "footercopyright":"Toate drepturile rezervate.",
     "locale":{
-        "0":"Français",
-        "1":"Anglais",
-        "2":"Roumain"
+        "0":"Franceză",
+        "1":"Engleză",
+        "2":"Românesc"
     }
 }

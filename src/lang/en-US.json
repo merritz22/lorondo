@@ -5,8 +5,8 @@
         "2":"Contact"
     },
     "HomeTitle":"For you",
-    "HomeDef":"Nous avons pour mission de construire des partenariatsfiables et durables basés sur la confiance mutuelle, en offrant une gamme diversifiée de services avec chaque entreprise. Offrir une expérience professionnelle inoubliable dans les projets de nos partenaires.Notre objectif principal est de contribuer à l'économie nationale, dans les ressources humaines. Dans ce contexte, nous organisons un emploi convenable pour les personnes qualifiées, semi-qualifiées et travailleurs non qualifiés à travers la migration dans différents pays du monde et les rendres autonomes en apportant leur bien-être économique.",
-    "ContactTitle":"A l'écoute pour toujours être proche de vous et vos besoins.",
+    "HomeDef":"Our mission is to build reliable, lasting partnerships based on mutual trust, offering a diverse range of services with each company. Our main objective is to contribute to the national economy through human resources. In this context, we organize suitable employment for skilled, semi-skilled and unskilled workers through migration to different countries around the world and empower them by bringing their economic well-being.",
+    "ContactTitle":"We're always ready to listen, so we're always close to you and your needs.",
     "contactFormName":"Name",
     "contactFormSurname":"Surname",
     "contactFormEnterprise":"Enterprise",
@@ -15,27 +15,27 @@
     "contactFormLand":"Land",
     "contactFormMsg":"Message",
     "contactFormTerms":"Accept our ",
-    "contactFormTermsLink":"politiques de confidentialités",
-    "contactFormSend":"Submit",
-    "servicesTitle":"Nous offrons a nos clients une gamme de services variée et de qualité superieure, conscient de la nécéssité de ce qu'est votre besoin, nous vous accompagnons fièrement dans son obtention.",
+    "contactFormTermsLink":"privacy policies",
+    "contactFormSend":"Send",
+    "servicesTitle":"We offer our customers a wide range of top-quality services. We know what you need, and we're proud to help you get it.",
     "servicesHeader":{
         "0":"Studies",
         "1":"Art",
         "2":"Technologies",
         "3":"Tourism",
         "4":"Work",
-        "5":"Voyages"
+        "5":"Travel"
     },
     "servicesBody":{
-        "0":"Vous désirez continuer vos études à l'étranger? Dans des écoles offrants des diplômes reconnues à l'internationale? Nous vous accompagnons dans le choix de votre école, votre filière et votre intégration.",
-        "1":"Vous êtes un amoureux des oeuvres artistiques? vous aimez produire des oeuvres de toutes beautées? vous voulez vendre ou exposer vos réalisations? N'hésitez pas à nous contactez pour vos besoin artistiques.",
-        "2":"De nos jours, la technologie est devenue notre un réel omniscient, elle contribue à notre epanouissement. Rejoignez les plus grands abris technologiques de notre monde.",
-        "3":"Une destination touristique? Visitez des lieux naturels qui vont vous marquer, prenez des vacances méritées et aller vers des destinations inoubliables. Créer vous des souvenirs.",
-        "4":"De nombreux pays du monde sont en chantier et n'attendent que vous, des travailleurs expérimentés et désireux de faire vos preuves Le monde proffessionnel vous attends.",
-        "5":"Notre monde regorge de nombreuse ressources qui n'attendent que vous. Sport, Esport, Tourisme, ...Comme beaucoup d'autre aventurer vous et faite le tour du monde."
+        "0":"Would you like to continue your studies abroad? In schools offering internationally recognized diplomas? We can help you choose your school, your course of study and your integration.",
+        "1":"Are you a lover of artistic works? Do you like to produce beautiful works of art? Don't hesitate to contact us for your artistic needs.",
+        "2":"Nowadays, technology has become our omniscient reality, contributing to our self-fulfillment. Join the world's largest technology shelters.",
+        "3":"A tourist destination? Visit natural places that will leave their mark on you, take a well-deserved vacation and travel to unforgettable destinations. Create your own memories.",
+        "4":"Many of the world's countries are under construction and just waiting for you, experienced workers eager to prove your worth. The professional world is waiting for you.",
+        "5":"Our world is full of resources just waiting for you. Sport, Esport, Tourism, ... Like many others, venture out and travel the world."
     },
     "footerTitle":"About us",
-    "footerAboutUs":"Activités de consultance dans le domaine des relations publiques et de la communication. Activités des agences de publicité et des services de représentations.",
+    "footerAboutUs":"Public relations and communications consultancy. Advertising agencies and representation services.",
     "footerContact":"Contact",
     "footercopyright":"All rights reserved.",
     "locale":{
