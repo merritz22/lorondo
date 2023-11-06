@@ -8,7 +8,7 @@ import ContactForm from '@/components/forms/ContactForm.vue'
   </div>
   <div class="mx-auto max-w-2xl text-center">
     <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Lorondo Services</h2>
-    <p class="mt-2 text-sm font-bold leading-8 text-gray-700 shadow-2xl">A l'écoute pour toujours être proche de vous et vos besoins.</p>
+    <p class="mt-2 text-sm font-bold leading-8 text-gray-700 shadow-2xl">{{ $t('ContactTitle') }}</p>
   </div>
   <ContactForm/>
 </div>

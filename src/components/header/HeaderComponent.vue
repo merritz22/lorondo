@@ -2,11 +2,18 @@
   import { RouterLink } from "vue-router"
   import logo from '@/assets/images/logo.jpg'
 import { ref } from "vue"
+import router from "@/router";
 
   const show = ref(false)
+  const locale = localStorage.getItem('locale')
   function mainMenu() {
     show.value = ! show.value
     // alert(show.value)
+  }
+
+  function changedLocale(e:any) {
+    localStorage.setItem('locale',e.target.value)
+    router.go(0)
   }
 </script>
 <template>
@@ -27,14 +34,17 @@ import { ref } from "vue"
         </button>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
-        <RouterLink class="text-sm border-b-2 border-b-indigo-500 font-bold leading-6 text-indigo-500 uppercase hover:text-indigo-900 hover:border-b-indigo-900 transition-all ease-in-out duration-700" to="/">Accueil</RouterLink>
-        <RouterLink class="text-sm border-b-2 border-b-indigo-500 font-bold leading-6 text-indigo-500 uppercase hover:text-indigo-900 hover:border-b-indigo-900 transition-all ease-in-out duration-700" to="services">Services</RouterLink>
-        <RouterLink class="text-sm border-b-2 border-b-indigo-500 font-bold leading-6 text-indigo-500 uppercase hover:text-indigo-900 hover:border-b-indigo-900 transition-all ease-in-out duration-700" to="contact">Contact</RouterLink>
+        <RouterLink class="text-sm border-b-2 border-b-indigo-500 font-bold leading-6 text-indigo-500 uppercase hover:text-indigo-900 hover:border-b-indigo-900 transition-all ease-in-out duration-700" to="/">{{ $t('headerNavLink.0') }}</RouterLink>
+        <RouterLink class="text-sm border-b-2 border-b-indigo-500 font-bold leading-6 text-indigo-500 uppercase hover:text-indigo-900 hover:border-b-indigo-900 transition-all ease-in-out duration-700" to="services">{{ $t('headerNavLink.1') }}</RouterLink>
+        <RouterLink class="text-sm border-b-2 border-b-indigo-500 font-bold leading-6 text-indigo-500 uppercase hover:text-indigo-900 hover:border-b-indigo-900 transition-all ease-in-out duration-700" to="contact">{{ $t('headerNavLink.2') }}</RouterLink>
         <!-- <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Company</a> -->
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a href="" class="text-sm font-semibold leading-6 text-gray-900"></a>
-        <!-- <span aria-hidden="true">&rarr;</span> -->
+        <select @change="changedLocale" name="locale" id="locale">
+          <option value="fr-FR" :selected="locale?.includes('fr-FR') ? true:false">{{ $t('locale.0') }}</option>
+          <option value="en-US" :selected="locale?.includes('en-US') ? true:false">{{ $t('locale.1') }}</option>
+          <option value="ro-RO" :selected="locale?.includes('ro-RO') ? true:false">{{ $t('locale.2') }}</option>
+        </select>
       </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
@@ -66,9 +76,9 @@ import { ref } from "vue"
         <div v-if="!show" class="mt-6 flow-root">
           <div class="-my-6 divide-y">
             <div class="border p-2 flex justify-between m-2 rounded-lg">
-              <RouterLink class="text-sm border-b-2 border-b-indigo-500 font-bold leading-6 text-indigo-500 uppercase hover:text-indigo-900 hover:border-b-indigo-900 transition-all ease-in-out duration-700" to="/">Accueil</RouterLink>
-              <RouterLink class="text-sm border-b-2 border-b-indigo-500 font-bold leading-6 text-indigo-500 uppercase hover:text-indigo-900 hover:border-b-indigo-900 transition-all ease-in-out duration-700" to="services">Services</RouterLink>
-              <RouterLink class="text-sm border-b-2 border-b-indigo-500 font-bold leading-6 text-indigo-500 uppercase hover:text-indigo-900 hover:border-b-indigo-900 transition-all ease-in-out duration-700" to="contact">Contact</RouterLink>
+              <RouterLink class="text-sm border-b-2 border-b-indigo-500 font-bold leading-6 text-indigo-500 uppercase hover:text-indigo-900 hover:border-b-indigo-900 transition-all ease-in-out duration-700" to="/">{{ $t('headerNavLink.0') }}</RouterLink>
+              <RouterLink class="text-sm border-b-2 border-b-indigo-500 font-bold leading-6 text-indigo-500 uppercase hover:text-indigo-900 hover:border-b-indigo-900 transition-all ease-in-out duration-700" to="services">{{ $t('headerNavLink.1') }}</RouterLink>
+              <RouterLink class="text-sm border-b-2 border-b-indigo-500 font-bold leading-6 text-indigo-500 uppercase hover:text-indigo-900 hover:border-b-indigo-900 transition-all ease-in-out duration-700" to="contact">{{ $t('headerNavLink.2') }}</RouterLink>
             </div>
           </div>
         </div>

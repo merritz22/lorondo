@@ -12,19 +12,12 @@ import video2 from '@/assets/videos/2.mp4'
     <div class="mx-auto max-w-2xl sm:-py-48">
       <div class="sm:mb-8 sm:flex sm:justify-center mb-5 text-center">
         <div class="rounded-full px-3 py-1 text-lg font-bold leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-          Lorondo Services <label class="text-indigo-700 animate-pulse">pour vous</label>.  
+          Lorondo Services <label class="text-indigo-700 animate-pulse">{{ $t('HomeTitle') }}</label>.  
         </div>
       </div>
       <div class="text-center">
-        <div class="text-center lg:text-lg">Nous avons pour mission de construire des partenariats
-          fiables et durables basés sur la confiance mutuelle, en offrant une gamme diversifiée de 
-          services avec chaque entreprise. 
-          Offrir une expérience professionnelle inoubliable dans les projets de nos partenaires.
-          Notre objectif principal est de contribuer à l'économie nationale, 
-          dans les ressources humaines. Dans ce contexte, nous organisons un 
-          emploi convenable pour les personnes qualifiées, semi-qualifiées et travailleurs non qualifiés à travers 
-          la migration dans différents pays du monde et les rendres autonomes en apportant leur
-           bien-être économique.
+        <div class="text-center lg:text-lg">
+          {{ $t('HomeDef') }}
         </div>
       </div>
       <div class="border p-4 rounded-full w-fit mt-20 mx-auto animate-bounce bg-indigo-700 font-bold">Lorondo Folio</div>

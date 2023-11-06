@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const year = new Date().getFullYear()
 </script>
 
 <template>
@@ -13,14 +14,13 @@
           </div>
           <div class="flex justify-center">
               <div class="w-52">
-                  <h2 class="mb-6 text-sm font-semibold text-indigo-900 uppercase">A Propos de nous</h2>
+                  <h2 class="mb-6 text-sm font-semibold text-indigo-900 uppercase">{{ $t('footerTitle') }}</h2>
                   <ul class="text-black font-medium">
-                      Activités de consultance dans le domaine des relations publiques et de la communication.
-                      Activités des agences de publicité et des services de représentations.
+                      {{ $t('footerAboutUs') }}
                   </ul>
               </div>
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-indigo-900 uppercase">Contact</h2>
+                  <h2 class="mb-6 text-sm font-semibold text-indigo-900 uppercase">{{ $t('footerContact') }}</h2>
                   <ul class="text-black dark:text-indigo-900 font-medium">
                         <li class="mb-4">
                             <a href="https://www.google.com/maps/place/Strada+Buturugilor,+Bucure%C8%99ti,+Roumanie/@44.3953471,26.0748408,17z/data=!3m1!4b1!4m6!3m5!1s0x40b1ffc7933333f7:0x9dc483a363187fb2!8m2!3d44.3953433!4d26.0774157!16s%2Fg%2F1tdfrn3f?authuser=0&entry=ttu" class="hover:underline">
@@ -48,7 +48,7 @@
       </div>
       <hr class="my-6 border-black sm:mx-auto dark:border-black lg:my-8" />
       <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-indigo-500 sm:text-center dark:text-indigo-400">© 2023 <a href="https://lorondoservices.com/" class="hover:underline">LorondoServices™</a>. Tout droits réservés.
+          <span class="text-sm text-indigo-500 sm:text-center dark:text-indigo-400">©{{ year }} <a href="https://lorondoservices.com/" class="hover:underline">LorondoServices™</a>. {{ $t('footercopyright') }}
           </span>
           <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
               <a href="#" class="text-indigo-500 hover:text-indigo-900 dark:hover:text-black">
