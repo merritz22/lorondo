@@ -23,7 +23,7 @@ const videos = [etude, secretariat, tech, tourisme, travail, voyage]
         <div class="text-sm">
           {{ $t(`servicesBody.${i}`) }}
         </div>
-        <div class="border p-3 rounded-full w-fit mt-2 mx-auto animate-pulse bg-indigo-700 font-bold"><a href="https://etude.lorondoservices.com">Voir Plus</a></div>
+        <div class="border p-3 rounded-full w-fit mt-2 mx-auto animate-pulse bg-indigo-700 font-bold"><a href="https://etude.lorondoservices.com">{{ $t('more') }}</a></div>
       </div>
     </div>
   </div>

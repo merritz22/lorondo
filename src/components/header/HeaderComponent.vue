@@ -40,7 +40,10 @@ import router from "@/router";
         <!-- <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Company</a> -->
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <select @change="changedLocale" name="locale" id="locale">
+        <img v-if="locale?.includes('fr-FR')" class="h-5 w-10 rounded-lg" src="https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/fr.svg">
+        <img v-if="locale?.includes('en-US')" class="h-5 w-10 rounded-lg" src="https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/gb.svg">
+        <img v-if="locale?.includes('ro-RO')" class="h-5 w-10 rounded-lg" src="https://cdn.jsdelivr.net/gh/hampusborgos/country-flags@main/svg/ro.svg">
+        <select @change="changedLocale" name="locale" id="locale" class="bg-transparent">
           <option value="fr-FR" :selected="locale?.includes('fr-FR') ? true:false">{{ $t('locale.0') }}</option>
           <option value="en-US" :selected="locale?.includes('en-US') ? true:false">{{ $t('locale.1') }}</option>
           <option value="ro-RO" :selected="locale?.includes('ro-RO') ? true:false">{{ $t('locale.2') }}</option>
